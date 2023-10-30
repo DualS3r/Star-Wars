@@ -1,0 +1,125 @@
+.formatNav{
+    width: 100%;
+    height: 80px;
+    background-color: #9979607d;
+    box-shadow: 5px 0 20px 0 white;
+
+    .formatButton{
+        color: black;
+        font-weight: bold;
+        background-color: white;
+        border: 1px solid black !important;
+        box-shadow: 0 0 10px 0 black;
+        transition: 0.5s;
+    }
+
+    .formatButton:hover{
+        transform: scale(110%);
+        color: white;
+        background-color: #997960;
+        box-shadow: 0 0 10px 0 white;
+    }
+}
+
+.formatMain{
+    height: 100vh;
+    background-image: url("./img/fond4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.formatCol{
+   height: calc(100vh - 80px);
+}
+
+.formatGallery{
+    background-color: #9979607d;
+    box-shadow: 0 0 20px 5px white;
+
+}
+
+.cardInfo{
+    background-color: rgba(255, 255, 255, 0.415);
+    padding: 5vh ;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 5px 0 black;
+
+    .formatSpanTitle{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+    img{
+        width: 100%;
+        height: 40vh;
+        border-radius: 2.5rem;
+        box-shadow: 0 0 5px 0 black;
+    }
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        text-decoration: underline;
+        
+    }
+}
+
+.formatGalleryCard{
+    width: 6vw;
+    transition: 0.5s;
+
+    .formatImgGallery{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        object-position: center;
+        cursor: pointer;
+    }
+
+}
+
+.formatGalleryCard:hover{
+    transform: rotate(5deg);
+}
+
+.flechaDerecha{
+    width: 5vh;
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.flechaDerecha:hover{
+    filter: invert(1);
+}
+
+.flechaIzq{
+    width: 5vh;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.flechaIzq:hover{
+    filter: invert(1);
+}
+
+.formDivLogo{
+    width: 100%;
+    height: calc(100vh - 80px);
+
+    img{
+        width: 30%;
+        object-fit: contain;
+        
+    }
+}
+
+.formatDivSpinner{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+
